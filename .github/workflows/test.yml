@@ -30,7 +30,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: 'find the path'
-        run: ls
+        run: |
+          ls
+          ls jhipster-kotlin
       
       - name: Run a one-line script
         run: echo Hello, world!
